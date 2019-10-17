@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* GLOBAL STYLES */
+
+     * {
+       box-sizing: border-box;
+       }
+   .item {
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   }
+   ul{
+     list-style-type:none;
+     margin:0;
+     padding:0;
+     overflow: hidden;
+     background-color: #facffa;
+   }
+   li{
+     float:left;
+   }
+   li a{ display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+}
+ li a:hover{
+  background-color: #facffa;
+}
+   body {
+    background-image: url("images/background.jpg");
+   }
+h1 {color: white}
+h2 {color: #f0ccf0}
+h3 {color: #f0ccf0}
